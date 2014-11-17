@@ -28,13 +28,13 @@ namespace Calculator
                     answer = multiply(numberOne, numberTwo);
                 else if (opperating == "/")
                     answer = divide(numberOne, numberTwo);
-                //TODO: Implement other opperations
+                //TODO: Implement other opperations.
                 else
                     Console.WriteLine("That opperation hasn't been implemented.");
                 Console.WriteLine("The answer is: " + answer);
                 bool contSL = true;
                 while (contSL == true)
-                //DOC: Below will never throw an exception
+                //DOC: Below will never throw an exception.
                 {
                     contSL = false;
                     Console.WriteLine("Continue [Y/N]?");
@@ -48,7 +48,7 @@ namespace Calculator
                 }
             }
         }
-        //DOC: Mathematical methods below
+        //DOC: Mathematical methods below.
         static double divide(double InputOne, double InputTwo)
         {
             double outputOfDiv = InputOne / InputTwo;
@@ -71,3 +71,4 @@ namespace Calculator
         }
     }
 }
+
