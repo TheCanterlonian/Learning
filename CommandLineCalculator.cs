@@ -18,6 +18,7 @@ namespace Calculator
                 Console.WriteLine("Input opperation.");
                 string opperating = Console.ReadLine();
                 Console.WriteLine("Input number two");
+                //TODO: Fix System.ArgumentNullException thrown here
                 double numberTwo = Double.Parse(Console.ReadLine());
                 double answer = 0;
                 if (opperating == "-")
